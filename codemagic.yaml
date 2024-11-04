@@ -16,7 +16,7 @@ workflows:
         XCODE_PROJECT: "UseBrainLab.xcodeproj"
         XCODE_SCHEME: "UseBrainLab"
         APP_STORE_APPLE_ID: 6737785410
-      xcode: 15.3
+      xcode: 16.0
 
     scripts:
       - name: Set up code signing settings on Xcode project
